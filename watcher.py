@@ -7,7 +7,7 @@ class WebhookBuilder:
 			self.url = url
 			self.webhook = DiscordWebhook(url=self.url, username="Notification bot", avatar_url="https://omtoi101.com/resources/notification2.jpg",  rate_limit_retry=True)
 			self.embed = DiscordEmbed(color="EE4B2B")
-			self.embed.set_author(name="Alert!", icon_url="https://omtoi101.com/resources/notification.jpg")
+			self.embed.set_author(name="Alert!", icon_url="https://omtoi101.com/resources/notification2.jpg")
 		def msg(self, msg, script):
 			self.__init__(self.url)
 			self.embed.set_title(script)
