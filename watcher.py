@@ -5,7 +5,7 @@ import traceback, json, os
 class WebhookBuilder:
 		def __init__(self, url) -> None:
 			self.url = url
-			self.webhook = DiscordWebhook(url=self.url, username="Notification bot", avatar_url="https://omtoi101.com/resources/notification.jpg",  rate_limit_retry=True)
+			self.webhook = DiscordWebhook(url=self.url, username="Notification bot", avatar_url="https://omtoi101.com/resources/notification2.jpg",  rate_limit_retry=True)
 			self.embed = DiscordEmbed(color="EE4B2B")
 			self.embed.set_author(name="Alert!", icon_url="https://omtoi101.com/resources/notification.jpg")
 		def msg(self, msg, script):
