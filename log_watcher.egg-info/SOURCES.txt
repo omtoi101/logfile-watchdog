@@ -1,0 +1,9 @@
+LICENSE
+pyproject.toml
+watcher.py
+log_watcher.egg-info/PKG-INFO
+log_watcher.egg-info/SOURCES.txt
+log_watcher.egg-info/dependency_links.txt
+log_watcher.egg-info/requires.txt
+log_watcher.egg-info/top_level.txt
+tests/test_watcher.py

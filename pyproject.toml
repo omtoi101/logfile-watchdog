@@ -1,0 +1,10 @@
+[project]
+name = "log-watcher"
+version = "0.1.0"
+dependencies = [
+    "discord-webhook",
+    "python-dotenv",
+]
+
+[tool.setuptools]
+py-modules = ["watcher"]
